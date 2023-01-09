@@ -1,1 +1,44 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9505175&assignment_repo_type=AssignmentRepo)
+# Shogi with linked list in C
+
+Data Structure Assignment2
+
+109503510_通訊三_龍芃如
+
+## INTRODUCTION
+
+日本將旗程式
+
+* 判斷行法是否違規
+
+* 有儲存棋譜功能
+
+* 可以悔棋
+
+* 支援棋譜重播功能
+-------------------------------------
+# Getting Started!
+
+## Compile & Run & Play
+
+```sh
+# Compile
+cd 109503510_assignment_2/
+gcc -o main src/main.c inc/move.h inc/init.h inc/print.h inc/rule.h 
+# Run
+./main -n -s [filename.txt]
+# Play(數字1~9)
+動哪個(段) (筋):
+去哪裡(段) (筋):
+輸入f繼續玩 or 輸入b反悔 or 輸入q離開:
+# FOR EXAMPLE
+動哪個(段) (筋):3 1
+去哪裡(段) (筋):4 1
+輸入f繼續玩 or 輸入b反悔 or 輸入q離開:f
+
+# 重播棋譜
+./main -l [filename.txt]
+```
+
+## Reference
+https://shogi.hk/Gameplay-of-Japanese-Chess-Shogi/
+
